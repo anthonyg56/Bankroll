@@ -1,0 +1,33 @@
+h2{
+	font-family: $secondaryFont!important;
+	font-size: 5em!important;
+	color: $mainColor!important;
+	font-weight: 600!important;
+}
+
+h2:hover{
+	color: black!important;
+}
+
+h1{
+	font-family: supremeFont!important;
+	color: white!important;
+	letter-spacing: 8px!important;
+}
+
+h3{
+	font-family: $secondaryFont!important;
+	font-size: 3em!important;
+	color: white!important;
+}
+
+a{
+	font-family: supremeFont!important;
+	color: white!important;
+}
+
+p{
+	font-family: $secondaryFont!important;
+	font-weight: 600;
+	font-size: 1.5em;
+}

@@ -1,0 +1,128 @@
+#cartelHeading {
+    margin: 105px auto 35px auto;
+    h1 {
+        font-size: 7em;
+        font-weight: 900;
+    }
+
+    p {
+        font-size: 2.5em!important;
+        color: $mainColor!important;
+    }
+}
+
+.fa {
+    display: hide;
+}
+
+#boxes {
+    padding: 0;
+    margin: auto;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 1);
+    .zoom {
+        overflow: hidden!important;
+        padding: 0;
+        margin: 0;
+        border: solid 3px white;
+        .boxes {
+            height: 400px;
+            overflow: hidden;
+            transition: transform .2s;
+            border-right: 2px;
+            border-left: 2px;
+            border-color: white;
+            h2 {
+                display: table-cell;
+                vertical-align: middle;
+                position: relative;
+                float: left;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 0;
+                margin: 0;
+            }
+        }
+        h2 {
+            color: white!Important;
+            background-color: #fe0000;
+            font-family: supremeFont!important;
+            margin: 0;
+        }
+        .boxes:hover {
+            cursor: pointer;
+            background-color: white!important;
+            h2 {
+                color: black!important;
+                font-size: 1em;
+            }
+            transform: scale(1.1);
+        }
+        #smoov {
+            background-image: url("../img/smoov.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #prince {
+            background-image: url("../img/prince.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #reso {
+            background-image: url('../img/reso.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #velly {
+            background-image: url("../img/velly.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    #instructions {
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 25px 10px;
+        h1 {
+            color: $mainColor!important;
+        }
+    }
+}
+
+#profileInfo {
+    margin-top: 20px;
+    padding: 0;
+    background-color: rgba(254, 0, 0, 0.85);
+    border-radius: 25px;
+}
+
+
+
+@media (max-width: 768px) {
+    #header {
+        height: 100%;
+        h1 {
+            padding-top: 156px;
+            padding-bottom: 60px;
+            color: #fe0000!important;
+        }
+
+        p {
+            padding-top: 45px;
+            padding-bottom: 45px;
+            color: white!important;
+            font-size: 2em;
+            font-weight: bold!important;
+        }
+
+        a {
+            display: block!important;
+        }
+    }
+
+    .zoom {
+        height: 482px;
+    }
+}

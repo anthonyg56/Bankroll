@@ -1,0 +1,94 @@
+#head {
+    background-color: $mainColor;
+    border: none;
+    margin: 0;
+    padding: 10px 0 10px 0; //box-shadow:0px 2px 5px black;
+    .page-scroll {
+        h1 {
+            
+            color: white;
+        }
+    }
+    .navbar-collapse {
+        
+    height: 100vh;
+        max-height: none;
+        transition: 1s;
+
+        .navbar-nav {
+            float: none;
+            margin: 0 auto;
+            display: table;
+            table-layout: fixed;
+            li {
+
+                padding: 2px 5px;
+                .active {
+                    color: black!important;
+                }
+                a {
+                    font-size: 3em;
+                    font-weight: 700;
+                    letter-spacing: 3px;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: black!important;
+                    transition: .3s;
+                }
+            }
+        }
+        .nav-social {
+            float: left;
+            li {
+                padding-right: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #head {
+        background-color: $mainColor!important;
+        .container-fluid {
+            .page-scroll {
+                h1 {
+                    display: inline;
+                }
+            }
+        }
+        .navbar-collapse {
+            background-color: white!important;
+            .navbar-nav {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 500;
+                padding: 0;
+                margin: 0;
+                li {
+                    .active {
+                        color: black!important;
+                    }
+                    margin: 5px auto;
+                    a {
+                        margin: 0;
+                        padding: 0;
+                        height: 50px;
+                        color: $mainColor!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header{
+        h1{
+            color: white!important;
+        }
+    }
+}

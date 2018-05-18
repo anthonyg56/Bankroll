@@ -1,0 +1,41 @@
+#interviewTitle {
+    margin: 105px auto 30px auto;
+    h1 {
+        font-size: 7em;
+        font-weight: 900;
+    }
+}
+
+#contentHeader{
+	margin: 105px auto 30px auto;
+    h1 {
+        font-size: 7em;
+        font-weight: 900;
+        color: $mainColor;
+    }
+}
+
+#interview {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    margin: 50px auto;
+    #interviewTitles {
+        margin: 30px auto 30px auto;
+        h1 {
+            font-size: 5em;
+            font-weight: 700;
+            color: $mainColor!important;
+        }
+    }
+    .row {
+        padding: 10px 0;
+
+        #interviewPic {
+            padding: 0;
+        }
+        #interviewText {
+            margin: 25px auto;
+        }
+    }
+}
